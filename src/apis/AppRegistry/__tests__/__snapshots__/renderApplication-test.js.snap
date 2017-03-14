@@ -69,9 +69,9 @@ Array [
     .rn-paddingRight-9aemit{padding-right:0px}
     .rn-paddingBottom-1mdbw0j{padding-bottom:0px}
     .rn-paddingLeft-gy4na3{padding-left:0px}
+    .rn-flexGrow-16y2uox{-webkit-flex-grow:1;flex-grow:1}
     .rn-zIndex-1lgpqti{z-index:0}
     .rn-zIndex-1wyyakw{z-index:-1}
-    .rn-flexGrow-16y2uox{-webkit-flex-grow:1;flex-grow:1}
 </style>,
 ]
 `;

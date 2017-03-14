@@ -62,6 +62,13 @@ class View extends Component {
 
     otherProps.style = [styles.initial, isInAParentText && styles.inline, style];
 
+    if (AccessibilityUtil.propsToAriaRole(this.props) === 'button') {
+      otherProps.children = createDOMElement('span', {
+        children: this.props.children,
+        style: styles.buttonFix
+      });
+    }
+
     if (hitSlop) {
       const hitSlopStyle = calculateHitSlopStyle(hitSlop);
       const hitSlopChild = createDOMElement('span', { style: [styles.hitSlop, hitSlopStyle] });
@@ -94,6 +101,13 @@ const styles = StyleSheet.create({
   },
   inline: {
     display: 'inline-flex'
+  },
+  buttonFix: {
+    alignItems: 'stretch',
+    display: 'flex',
+    flex: 1,
+    flexDirection: 'column',
+    position: 'relative'
   },
   // this zIndex ordering positions the hitSlop above the View but behind
   // its children

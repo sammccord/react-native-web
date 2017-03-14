@@ -147,7 +147,7 @@ class ZIndexExample extends React.Component {
     );
   }
 
-  _handlePress() {
+  _handlePress = () => {
     this.setState({ flipped: !this.state.flipped });
   }
 }
