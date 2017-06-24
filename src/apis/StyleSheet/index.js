@@ -36,7 +36,7 @@ const StyleSheet = {
     const result = {};
     Object.keys(styles).forEach(key => {
       if (process.env.NODE_ENV !== 'production') {
-        const StyleSheetValidation = require('./StyleSheetValidation').default;
+        const StyleSheetValidation = require('./StyleSheetValidation');
         StyleSheetValidation.validateStyle(key, styles);
       }
       result[key] = StyleRegistry.register(styles[key]);
