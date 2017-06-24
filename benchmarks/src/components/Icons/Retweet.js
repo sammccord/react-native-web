@@ -15,4 +15,4 @@ const IconRetweet = props =>
 
 IconRetweet.metadata = { height: 72, width: 74 };
 
-export default IconRetweet;
+module.exports = IconRetweet;

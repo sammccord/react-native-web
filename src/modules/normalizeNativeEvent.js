@@ -115,4 +115,4 @@ function normalizeNativeEvent(nativeEvent) {
   return mouse ? normalizeMouseEvent(nativeEvent) : normalizeTouchEvent(nativeEvent);
 }
 
-export default normalizeNativeEvent;
+module.exports = normalizeNativeEvent;

@@ -55,4 +55,4 @@ const ImageLoader = {
   }
 };
 
-export default ImageLoader;
+module.exports = ImageLoader;

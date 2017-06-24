@@ -104,4 +104,4 @@ const weightStyles = StyleSheet.create({
   }
 });
 
-export default AppText;
+module.exports = AppText;

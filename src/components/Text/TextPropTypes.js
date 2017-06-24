@@ -26,4 +26,4 @@ const TextPropTypes = {
   style: StyleSheetPropType(TextStylePropTypes)
 };
 
-export default TextPropTypes;
+module.exports = TextPropTypes;

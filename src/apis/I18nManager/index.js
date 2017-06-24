@@ -56,4 +56,4 @@ const I18nManager: I18nManagerStatus = {
   }
 };
 
-export default I18nManager;
+module.exports = I18nManager;

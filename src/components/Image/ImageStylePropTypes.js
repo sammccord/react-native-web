@@ -29,4 +29,4 @@ const ImageStylePropTypes = {
   boxShadow: string
 };
 
-export default ImageStylePropTypes;
+module.exports = ImageStylePropTypes;

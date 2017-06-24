@@ -41,4 +41,4 @@ const propsToAriaRole = ({
   }
 };
 
-export default propsToAriaRole;
+module.exports = propsToAriaRole;

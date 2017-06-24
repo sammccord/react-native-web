@@ -118,4 +118,4 @@ const indicatorSizes = StyleSheet.create({
   }
 });
 
-export default applyNativeMethods(ActivityIndicator);
+module.exports = applyNativeMethods(ActivityIndicator);

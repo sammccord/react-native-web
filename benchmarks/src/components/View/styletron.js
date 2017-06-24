@@ -30,4 +30,4 @@ const viewStyle = injectStylePrefixed(styletron, {
   minWidth: '0px'
 });
 
-export default View;
+module.exports = View;

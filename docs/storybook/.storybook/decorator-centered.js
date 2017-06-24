@@ -9,7 +9,7 @@ const styles = StyleSheet.create({
   }
 });
 
-export default function(renderStory) {
+module.exports = function(renderStory) {
   return (
     <View style={styles.root}>
       {renderStory()}

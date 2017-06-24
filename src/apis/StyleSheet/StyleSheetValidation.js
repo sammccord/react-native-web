@@ -23,7 +23,7 @@ import { oneOf, string } from 'prop-types';
 // plz don't fire me.
 const ReactPropTypesSecret = 'SECRET_DO_NOT_PASS_THIS_OR_YOU_WILL_BE_FIRED';
 
-export default class StyleSheetValidation {
+class StyleSheetValidation {
   static validateStyleProp(prop, style, caller) {
     if (process.env.NODE_ENV !== 'production') {
       if (allStylePropTypes[prop] === undefined) {
@@ -61,6 +61,8 @@ export default class StyleSheetValidation {
     }
   }
 }
+
+module.exports = StyleSheetValidation;
 
 const styleError = function(message1, style, caller?, message2?) {
   warning(

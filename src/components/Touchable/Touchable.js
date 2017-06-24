@@ -792,4 +792,4 @@ var Touchable = {
   }
 };
 
-export default Touchable;
+module.exports = Touchable;

@@ -42,4 +42,4 @@ const ReactNativeCore = {
   View
 };
 
-export default ReactNativeCore;
+module.exports = ReactNativeCore;

@@ -2,7 +2,7 @@ import ListViewDataSource from './ListViewDataSource';
 import ScrollView from '../ScrollView';
 import { arrayOf, bool, func, instanceOf, number } from 'prop-types';
 
-export default {
+module.exports = {
   ...ScrollView.propTypes,
   dataSource: instanceOf(ListViewDataSource).isRequired,
   renderSeparator: func,

@@ -60,4 +60,4 @@ var PooledClass = {
   twoArgumentPooler: twoArgumentPooler
 };
 
-export default PooledClass;
+module.exports = PooledClass;

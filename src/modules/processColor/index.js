@@ -34,4 +34,4 @@ const processColor = (color: ?(string | number), opacity: number = 1) => {
   return `rgba(${r},${g},${b},${a * opacity})`;
 };
 
-export default processColor;
+module.exports = processColor;

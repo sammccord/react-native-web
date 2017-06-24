@@ -102,4 +102,4 @@ const styles = StyleSheet.create({
   }
 });
 
-export default applyNativeMethods(ProgressBar);
+module.exports = applyNativeMethods(ProgressBar);

@@ -108,4 +108,4 @@ const styles = StyleSheet.create({
   }
 });
 
-export default TweetTextPart;
+module.exports = TweetTextPart;

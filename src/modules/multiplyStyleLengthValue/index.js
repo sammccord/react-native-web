@@ -26,4 +26,4 @@ const multiplyStyleLengthValue = (value: string | number, multiple) => {
   }
 };
 
-export default multiplyStyleLengthValue;
+module.exports = multiplyStyleLengthValue;

@@ -215,4 +215,4 @@ var styles = StyleSheet.create({
   }
 });
 
-export default TouchableOpacity;
+module.exports = TouchableOpacity;

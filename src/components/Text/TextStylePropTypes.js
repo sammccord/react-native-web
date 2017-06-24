@@ -57,4 +57,4 @@ const TextStylePropTypes = {
   WebkitFontSmoothing: string
 };
 
-export default TextStylePropTypes;
+module.exports = TextStylePropTypes;

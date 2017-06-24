@@ -18,4 +18,4 @@ const PointPropType = createStrictShapeTypeChecker({
   y: number
 });
 
-export default PointPropType;
+module.exports = PointPropType;

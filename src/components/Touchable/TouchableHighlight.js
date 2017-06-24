@@ -305,4 +305,4 @@ var styles = StyleSheet.create({
   }
 });
 
-export default TouchableHighlight;
+module.exports = TouchableHighlight;

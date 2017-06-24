@@ -119,4 +119,4 @@ const createDOMProps = (rnProps, resolveStyle) => {
   return domProps;
 };
 
-export default createDOMProps;
+module.exports = createDOMProps;

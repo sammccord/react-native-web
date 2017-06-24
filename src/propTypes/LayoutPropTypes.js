@@ -92,4 +92,4 @@ const LayoutPropTypes = {
   gridTemplateAreas: string
 };
 
-export default LayoutPropTypes;
+module.exports = LayoutPropTypes;

@@ -236,4 +236,4 @@ const createReactDOMStyle = style => {
   return resolvedStyle;
 };
 
-export default createReactDOMStyle;
+module.exports = createReactDOMStyle;

@@ -548,4 +548,4 @@ const ScrollResponder = {
   Mixin: ScrollResponderMixin
 };
 
-export default ScrollResponder;
+module.exports = ScrollResponder;

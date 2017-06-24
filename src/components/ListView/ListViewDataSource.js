@@ -391,4 +391,4 @@ function keyedDictionaryFromArray(arr) {
   return result;
 }
 
-export default ListViewDataSource;
+module.exports = ListViewDataSource;

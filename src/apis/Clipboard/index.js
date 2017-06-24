@@ -10,7 +10,7 @@
  * @flow
  */
 
-export default class Clipboard {
+class Clipboard {
   static isAvailable() {
     return (
       typeof document.queryCommandSupported === 'function' && document.queryCommandSupported('copy')
@@ -54,3 +54,5 @@ export default class Clipboard {
     return success;
   }
 }
+
+module.exports = Clipboard

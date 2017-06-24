@@ -11,4 +11,4 @@ const mapKeyValue = (obj, fn) => {
   return result;
 };
 
-export default mapKeyValue;
+module.exports = mapKeyValue;

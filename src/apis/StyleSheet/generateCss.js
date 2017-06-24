@@ -31,4 +31,4 @@ const createDeclarationString = (prop, val) => {
 const generateCss = style =>
   mapKeyValue(prefixStyles(style), createDeclarationString).sort().join(';');
 
-export default generateCss;
+module.exports = generateCss;

@@ -326,4 +326,4 @@ const resizeModeStyles = StyleSheet.create({
   }
 });
 
-export default applyNativeMethods(Image);
+module.exports = applyNativeMethods(Image);

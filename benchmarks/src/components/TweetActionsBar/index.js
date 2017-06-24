@@ -4,7 +4,7 @@ import React, { PropTypes, PureComponent } from 'react';
 
 const actionNames = ['reply', 'retweet', 'like', 'directMessage'];
 
-export default class TweetActionsBar extends PureComponent {
+class TweetActionsBar extends PureComponent {
   static propTypes = {
     actions: PropTypes.arrayOf(
       PropTypes.shape({
@@ -49,3 +49,5 @@ const styles = StyleSheet.create({
     marginRight: '10%'
   }
 });
+
+module.exports = TweetActionsBar

@@ -438,4 +438,4 @@ const calculatorStyles = StyleSheet.create({
   }
 });
 
-export default Calculator;
+module.exports = Calculator;

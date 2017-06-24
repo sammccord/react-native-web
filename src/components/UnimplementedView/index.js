@@ -46,4 +46,4 @@ const unimplementedViewStyles = process.env.NODE_ENV !== 'production'
     }
   : {};
 
-export default UnimplementedView;
+module.exports = UnimplementedView;

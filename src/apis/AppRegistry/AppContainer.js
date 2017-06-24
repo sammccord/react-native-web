@@ -27,7 +27,7 @@ type State = {
   mainKey: number
 };
 
-export default class AppContainer extends Component {
+class AppContainer extends Component {
   props: Props;
   state: State = { mainKey: 1 };
 
@@ -68,3 +68,5 @@ const styles = StyleSheet.create({
     flex: 1
   }
 });
+
+module.exports = AppContainer;

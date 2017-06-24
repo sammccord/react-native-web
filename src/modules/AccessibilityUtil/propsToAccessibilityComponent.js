@@ -36,4 +36,4 @@ const propsToAccessibilityComponent = (props = emptyObject) => {
   return roleComponents[role];
 };
 
-export default propsToAccessibilityComponent;
+module.exports = propsToAccessibilityComponent;

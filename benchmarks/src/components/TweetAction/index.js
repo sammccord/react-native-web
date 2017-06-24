@@ -21,7 +21,7 @@ const getIcon = (icon, highlighted) => {
   }
 };
 
-export default class TweetAction extends React.Component {
+class TweetAction extends React.Component {
   static displayName = 'TweetAction';
 
   static propTypes = {
@@ -52,6 +52,7 @@ export default class TweetAction extends React.Component {
   }
 }
 
+module.exports = TweetAction;
 const styles = StyleSheet.create({
   root: {
     minHeight: theme.createLength(theme.lineHeight, 'rem'),

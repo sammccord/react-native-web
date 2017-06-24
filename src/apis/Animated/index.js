@@ -26,4 +26,4 @@ const AnimatedImplementation = {
   View: Animated.createAnimatedComponent(View)
 };
 
-export default AnimatedImplementation;
+module.exports = AnimatedImplementation;
