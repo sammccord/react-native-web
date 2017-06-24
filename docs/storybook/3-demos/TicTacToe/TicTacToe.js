@@ -327,4 +327,4 @@ const styles = StyleSheet.create({
 
 AppRegistry.registerComponent('TicTacToeApp', () => TicTacToeApp);
 
-export default TicTacToeApp;
+module.exports = TicTacToeApp;

@@ -18,4 +18,4 @@ const ensurePositiveDelayProps = (props: any) => {
   );
 };
 
-export default ensurePositiveDelayProps;
+module.exports = ensurePositiveDelayProps;

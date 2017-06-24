@@ -38,4 +38,4 @@ const propsToAccessibilityComponent = (props: Object = emptyObject) => {
   }
 };
 
-export default propsToAccessibilityComponent;
+module.exports = propsToAccessibilityComponent;

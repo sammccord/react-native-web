@@ -50,4 +50,4 @@ const styles = StyleSheet.create({
   }
 });
 
-export default GridView;
+module.exports = GridView;

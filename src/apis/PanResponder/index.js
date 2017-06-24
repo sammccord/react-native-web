@@ -391,4 +391,4 @@ const PanResponder = {
   }
 };
 
-export default PanResponder;
+module.exports = PanResponder;

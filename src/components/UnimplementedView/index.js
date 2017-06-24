@@ -47,4 +47,4 @@ const unimplementedViewStyles =
       }
     : {};
 
-export default UnimplementedView;
+module.exports = UnimplementedView;

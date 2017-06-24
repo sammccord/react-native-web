@@ -245,4 +245,4 @@ const examples = [
   */
 ];
 
-export default examples;
+module.exports = examples;

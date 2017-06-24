@@ -43,7 +43,7 @@ const pointerEventsCss =
   `.${pointerEvents.boxNone} > *{pointer-events:auto;}\n` +
   `.${pointerEvents.boxOnly} > *{pointer-events:none;}`;
 
-export default class StyleManager {
+class StyleManager {
   cache = null;
   mainSheet = null;
 
@@ -158,3 +158,5 @@ export default class StyleManager {
     cache.byClassName[className] = { prop, value };
   }
 }
+
+module.exports = StyleManager;

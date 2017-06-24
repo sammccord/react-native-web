@@ -10,4 +10,4 @@
 
 const isDisabled = (props: Object) => props.disabled || props['aria-disabled'];
 
-export default isDisabled;
+module.exports = isDisabled;

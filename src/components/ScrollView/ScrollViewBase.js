@@ -48,7 +48,7 @@ const normalizeScrollEvent = e => ({
 /**
  * Encapsulates the Web-specific scroll throttling and disabling logic
  */
-export default class ScrollViewBase extends Component {
+class ScrollViewBase extends Component {
   static propTypes = {
     ...ViewPropTypes,
     onMomentumScrollBegin: func,
@@ -166,3 +166,5 @@ const styles = StyleSheet.create({
     touchAction: 'none'
   }
 });
+
+module.exports = ScrollViewBase;

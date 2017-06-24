@@ -115,4 +115,4 @@ const styles = StyleSheet.create({
   }
 });
 
-export default applyLayout(applyNativeMethods(Text));
+module.exports = applyLayout(applyNativeMethods(Text));

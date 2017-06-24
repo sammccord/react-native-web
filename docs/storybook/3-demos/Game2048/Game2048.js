@@ -347,4 +347,4 @@ const styles = StyleSheet.create({
 
 AppRegistry.registerComponent('Game2048', () => Game2048);
 
-export default Game2048;
+module.exports = Game2048;

@@ -11,4 +11,4 @@ const renderDeepTree = (label, components) =>
     }
   });
 
-export default renderDeepTree;
+module.exports = renderDeepTree;

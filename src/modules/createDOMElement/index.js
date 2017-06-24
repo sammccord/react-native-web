@@ -91,4 +91,4 @@ const createDOMElement = (component, props) => {
   return <Component {...domProps} />;
 };
 
-export default createDOMElement;
+module.exports = createDOMElement;

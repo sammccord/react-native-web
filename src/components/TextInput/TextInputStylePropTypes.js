@@ -17,4 +17,4 @@ const TextInputStylePropTypes = {
   resize: oneOf(['none', 'vertical', 'horizontal', 'both'])
 };
 
-export default TextInputStylePropTypes;
+module.exports = TextInputStylePropTypes;

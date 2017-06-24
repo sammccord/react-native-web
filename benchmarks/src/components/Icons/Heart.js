@@ -15,4 +15,4 @@ const IconHeart = props =>
 
 IconHeart.metadata = { height: 72, width: 54 };
 
-export default IconHeart;
+module.exports = IconHeart;

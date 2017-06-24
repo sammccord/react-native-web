@@ -25,4 +25,4 @@ function StyleSheetPropType(shape: { [key: string]: ReactPropsCheckType }): Reac
   };
 }
 
-export default StyleSheetPropType;
+module.exports = StyleSheetPropType;

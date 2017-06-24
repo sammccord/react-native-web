@@ -26,4 +26,4 @@ class TweetText extends React.Component {
   }
 }
 
-export default TweetText;
+module.exports = TweetText;

@@ -88,4 +88,4 @@ const i18nStyle = originalStyle => {
   return nextStyle;
 };
 
-export default i18nStyle;
+module.exports = i18nStyle;

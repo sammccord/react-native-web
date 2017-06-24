@@ -29,7 +29,7 @@ const win = canUseDOM
 const dimensions = {};
 const listeners = {};
 
-export default class Dimensions {
+class Dimensions {
   static get(dimension: string): Object {
     invariant(dimensions[dimension], `No dimension set for key ${dimension}`);
     return dimensions[dimension];
@@ -72,3 +72,5 @@ Dimensions.set();
 if (canUseDOM) {
   window.addEventListener('resize', debounce(Dimensions.set, 16), false);
 }
+
+module.exports = Dimensions;

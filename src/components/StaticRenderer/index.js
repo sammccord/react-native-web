@@ -27,7 +27,7 @@ import { bool, func } from 'prop-types';
  * React reconciliation.
  */
 
-export default class StaticRenderer extends Component {
+class StaticRenderer extends Component {
   static propTypes = {
     render: func.isRequired,
     shouldUpdate: bool.isRequired
@@ -41,3 +41,5 @@ export default class StaticRenderer extends Component {
     return this.props.render();
   }
 }
+
+module.exports = StaticRenderer;

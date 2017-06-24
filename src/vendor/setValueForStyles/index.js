@@ -233,4 +233,4 @@ const setValueForStyles = function(node, styles, component) {
   }
 };
 
-export default setValueForStyles;
+module.exports = setValueForStyles;

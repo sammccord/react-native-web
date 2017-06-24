@@ -6,4 +6,4 @@ const api = {
   View
 };
 
-export default api;
+module.exports = api;

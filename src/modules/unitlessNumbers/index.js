@@ -46,4 +46,4 @@ const unitlessNumbers = {
   shadowOpacity: true
 };
 
-export default unitlessNumbers;
+module.exports = unitlessNumbers;

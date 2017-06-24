@@ -208,4 +208,4 @@ const styles = StyleSheet.create({
   }
 });
 
-export default applyNativeMethods(TouchableOpacity);
+module.exports = applyNativeMethods(TouchableOpacity);

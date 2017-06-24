@@ -23,4 +23,4 @@ const ShadowPropTypes = {
   shadowSpread: numberOrString
 };
 
-export default ShadowPropTypes;
+module.exports = ShadowPropTypes;

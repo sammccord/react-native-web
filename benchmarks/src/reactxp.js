@@ -1,7 +1,7 @@
 import Box from './components/Box/reactxp';
 import { View } from 'reactxp';
 
-export default {
+module.exports = {
   Box,
   View
 };

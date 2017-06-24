@@ -4,7 +4,7 @@
 
 const dataUriPattern = /^data:/;
 
-export default class ImageUriCache {
+class ImageUriCache {
   static _maximumEntries: number = 256;
   static _entries = {};
 
@@ -63,3 +63,5 @@ export default class ImageUriCache {
     }
   }
 }
+
+module.exports = ImageUriCache;

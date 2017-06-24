@@ -15,7 +15,7 @@ import AppContainer from './AppContainer';
 import StyleSheet from '../../apis/StyleSheet';
 import React from 'react';
 
-export default function renderApplication(
+function renderApplication(
   RootComponent: ReactClass<Object>,
   initialProps: Object,
   rootTag: any
@@ -42,3 +42,5 @@ export function getApplication(RootComponent: ReactClass<Object>, initialProps: 
   );
   return { element, stylesheets };
 }
+
+module.exports = renderApplication;

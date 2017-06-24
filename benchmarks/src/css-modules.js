@@ -5,5 +5,4 @@ const api = {
   Box,
   View
 };
-
-export default api;
+module.exports = api;

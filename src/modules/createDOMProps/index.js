@@ -128,4 +128,4 @@ const createDOMProps = (component, props, styleResolver) => {
   return domProps;
 };
 
-export default createDOMProps;
+module.exports = createDOMProps;

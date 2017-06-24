@@ -18,4 +18,4 @@ const ensureComponentIsNative = (component: any) => {
   );
 };
 
-export default ensureComponentIsNative;
+module.exports = ensureComponentIsNative;

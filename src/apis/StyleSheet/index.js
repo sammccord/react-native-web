@@ -50,4 +50,4 @@ const StyleSheet = {
   hairlineWidth: 1
 };
 
-export default StyleSheet;
+module.exports = StyleSheet;

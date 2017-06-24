@@ -143,4 +143,4 @@ const modality = () => {
   }
 };
 
-export default modality;
+module.exports = modality;

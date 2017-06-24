@@ -98,4 +98,4 @@ const styles = StyleSheet.create({
   }
 });
 
-export default applyLayout(applyNativeMethods(View));
+module.exports = applyLayout(applyNativeMethods(View));

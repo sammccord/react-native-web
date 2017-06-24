@@ -59,4 +59,4 @@ const ViewStylePropTypes = {
   WebkitOverflowScrolling: oneOf(['auto', 'touch'])
 };
 
-export default ViewStylePropTypes;
+module.exports = ViewStylePropTypes;

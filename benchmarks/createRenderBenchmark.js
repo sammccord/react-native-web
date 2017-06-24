@@ -21,4 +21,4 @@ const createRenderBenchmark = ({ description, getElement, name, runs }) => () =>
   });
 };
 
-export default createRenderBenchmark;
+module.exports = createRenderBenchmark;

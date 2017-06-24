@@ -21,4 +21,4 @@ const AnimationPropTypes = {
   animationTimingFunction: string
 };
 
-export default AnimationPropTypes;
+module.exports = AnimationPropTypes;

@@ -15,4 +15,4 @@ const IconReply = props =>
 
 IconReply.metadata = { height: 72, width: 62 };
 
-export default IconReply;
+module.exports = IconReply;

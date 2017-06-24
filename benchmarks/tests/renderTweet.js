@@ -110,4 +110,4 @@ const renderTweet = label =>
     }
   });
 
-export default renderTweet;
+module.exports = renderTweet;

@@ -11,4 +11,4 @@ const renderWideTree = (label, components) =>
     }
   });
 
-export default renderWideTree;
+module.exports = renderWideTree;

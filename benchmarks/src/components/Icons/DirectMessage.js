@@ -16,4 +16,4 @@ const IconDirectMessage = props =>
 
 IconDirectMessage.metadata = { height: 72, width: 56 };
 
-export default IconDirectMessage;
+module.exports = IconDirectMessage;

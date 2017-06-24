@@ -20,4 +20,4 @@ const AccessibilityUtil = {
   propsToTabIndex
 };
 
-export default AccessibilityUtil;
+module.exports = AccessibilityUtil;

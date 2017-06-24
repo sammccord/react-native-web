@@ -141,4 +141,4 @@ const styles = StyleSheet.create({
   }
 });
 
-export default Tweet;
+module.exports = Tweet;

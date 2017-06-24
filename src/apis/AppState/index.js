@@ -24,7 +24,7 @@ const AppStates = {
 
 const listeners = [];
 
-export default class AppState {
+class AppState {
   static isAvailable = ExecutionEnvironment.canUseDOM && document.visibilityState;
 
   static get currentState() {
@@ -73,3 +73,5 @@ export default class AppState {
     }
   }
 }
+
+module.exports = AppState

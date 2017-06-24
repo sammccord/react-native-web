@@ -22,4 +22,4 @@ const BackAndroid = {
   removeEventListener: emptyFunction
 };
 
-export default BackAndroid;
+module.exports = BackAndroid;

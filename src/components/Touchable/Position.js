@@ -24,4 +24,4 @@ Position.prototype.destructor = function() {
 
 PooledClass.addPoolingTo(Position, twoArgumentPooler);
 
-export default Position;
+module.exports = Position;

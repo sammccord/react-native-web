@@ -23,4 +23,4 @@ const BaseComponentPropTypes = {
   accessibilityTraits: oneOfType([array, string])
 };
 
-export default BaseComponentPropTypes;
+module.exports = BaseComponentPropTypes;

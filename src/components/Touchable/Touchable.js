@@ -857,4 +857,4 @@ const Touchable = {
   }
 };
 
-export default Touchable;
+module.exports = Touchable;

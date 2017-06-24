@@ -93,4 +93,4 @@ const applyLayout = (Component: ReactClass<any>) => {
   return Component;
 };
 
-export default applyLayout;
+module.exports = applyLayout;

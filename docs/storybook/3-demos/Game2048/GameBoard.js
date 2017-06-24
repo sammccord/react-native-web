@@ -207,4 +207,4 @@ Board.prototype.hasLost = function() {
   return !canMove;
 };
 
-export default Board;
+module.exports = Board;

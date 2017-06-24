@@ -94,4 +94,4 @@ const benchmark = ({ name, description, setup, teardown, task, runs }) => {
   });
 };
 
-export default benchmark;
+module.exports = benchmark;

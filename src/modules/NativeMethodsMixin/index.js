@@ -127,4 +127,4 @@ const NativeMethodsMixin = {
   }
 };
 
-export default NativeMethodsMixin;
+module.exports = NativeMethodsMixin;

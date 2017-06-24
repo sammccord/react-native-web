@@ -10,4 +10,4 @@
  */
 
 import { findDOMNode } from 'react-dom';
-export default findDOMNode;
+module.exports = findDOMNode;
