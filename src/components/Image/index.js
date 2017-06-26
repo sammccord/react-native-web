@@ -13,6 +13,7 @@
 import applyNativeMethods from '../../modules/applyNativeMethods';
 import { canUseDOM } from 'fbjs/lib/ExecutionEnvironment';
 import createDOMElement from '../../modules/createDOMElement';
+import { getAssetByID } from 'AssetRegistry';
 import ImageLoader from '../../modules/ImageLoader';
 import ImageResizeMode from './ImageResizeMode';
 import ImageStylePropTypes from './ImageStylePropTypes';
@@ -39,7 +40,8 @@ const ImageSourcePropType = oneOfType([
     uri: string.isRequired,
     width: number
   }),
-  string
+  number,
+  string,
 ]);
 
 const getImageState = (uri, shouldDisplaySource) => {
@@ -50,12 +52,22 @@ const resolveAssetDimensions = source => {
   if (typeof source === 'object') {
     const { height, width } = source;
     return { height, width };
+  } else if (typeof source === 'number') {
+    const { height, width } = getAssetByID(source);
+    return { height, width };
   }
 };
 
 const svgDataUriPattern = /^data:image\/svg\+xml;/;
 const resolveAssetSource = source => {
-  const uri = typeof source === 'object' ? source.uri : source || '';
+  let uri = typeof source === 'object' ? source.uri : source || '';
+  if (typeof source === 'number') {
+    // Get the actual URI from the packager
+    const asset = getAssetByID(source);
+    const scale = asset.scales[0];
+    const scaleSuffix = scale !== 1 ? `@${scale}x` : '';
+    uri = asset ? `${asset.httpServerLocation}/${asset.name}${scaleSuffix}.${asset.type}` : '';
+  }
   // SVG data may contain characters (e.g., #, ") that need to be escaped
   if (svgDataUriPattern.test(uri)) {
     const parts = uri.split('<svg');
