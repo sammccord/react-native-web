@@ -1,9 +1,14 @@
 // based on https://github.com/facebook/react/pull/4303/files
 
-import EventPluginHub from 'react-dom/lib/EventPluginHub';
 import normalizeNativeEvent from './normalizeNativeEvent';
-import ResponderEventPlugin from 'react-dom/lib/ResponderEventPlugin';
-import ResponderTouchHistoryStore from 'react-dom/lib/ResponderTouchHistoryStore';
+
+import ReactDOM from 'react-dom';
+
+const {
+  EventPluginHub,
+  ResponderEventPlugin,
+  ResponderTouchHistoryStore,
+} = ReactDOM.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
 
 const topMouseDown = 'topMouseDown';
 const topMouseMove = 'topMouseMove';
