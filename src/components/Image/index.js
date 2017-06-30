@@ -13,7 +13,7 @@
 import applyNativeMethods from '../../modules/applyNativeMethods';
 import { canUseDOM } from 'fbjs/lib/ExecutionEnvironment';
 import createDOMElement from '../../modules/createDOMElement';
-import { getAssetByID } from 'AssetRegistry';
+import { getAssetByID } from '../../apis/AssetRegistry';
 import ImageLoader from '../../modules/ImageLoader';
 import ImageResizeMode from './ImageResizeMode';
 import ImageStylePropTypes from './ImageStylePropTypes';
@@ -60,8 +60,10 @@ const resolveAssetDimensions = source => {
 
 const svgDataUriPattern = /^data:image\/svg\+xml;/;
 const resolveAssetSource = source => {
-  let uri = typeof source === 'object' ? source.uri : source || '';
-  if (typeof source === 'number') {
+  let uri = '';
+  if (typeof source === 'object' && source && source.uri) {
+    uri = source.uri;
+  } else if (typeof source === 'number') {
     // Get the actual URI from the packager
     const asset = getAssetByID(source);
     const scale = asset.scales[0];
