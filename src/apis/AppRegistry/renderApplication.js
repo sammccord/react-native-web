@@ -43,4 +43,4 @@ export function getApplication(RootComponent: ReactClass<Object>, initialProps: 
   return { element, stylesheets };
 }
 
-module.exports = renderApplication;
+export default renderApplication;
