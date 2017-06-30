@@ -13,7 +13,7 @@
 import applyNativeMethods from '../../modules/applyNativeMethods';
 import { canUseDOM } from 'fbjs/lib/ExecutionEnvironment';
 import createDOMElement from '../../modules/createDOMElement';
-import { getAssetByID } from 'AssetRegistry';
+import { getAssetByID } from '../../apis/AssetRegistry';
 import ImageLoader from '../../modules/ImageLoader';
 import ImageResizeMode from './ImageResizeMode';
 import ImageStylePropTypes from './ImageStylePropTypes';
