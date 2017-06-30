@@ -88,8 +88,6 @@
     "jest": "^20.0.4",
     "lint-staged": "^4.0.0",
     "prettier": "^1.4.4",
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1",
     "react-test-renderer": "^15.6.1",
     "url-loader": "^0.5.9",
     "webpack": "^3.0.0",
