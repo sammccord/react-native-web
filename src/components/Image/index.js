@@ -60,8 +60,10 @@ const resolveAssetDimensions = source => {
 
 const svgDataUriPattern = /^data:image\/svg\+xml;/;
 const resolveAssetSource = source => {
-  let uri = typeof source === 'object' ? source.uri : source || '';
-  if (typeof source === 'number') {
+  let uri = '';
+  if (typeof source === 'object' && source.uri) {
+    uri = source.uri;
+  } else if (typeof source === 'number') {
     // Get the actual URI from the packager
     const asset = getAssetByID(source);
     const scale = asset.scales[0];
