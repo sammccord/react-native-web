@@ -110,6 +110,7 @@ if (process.env.NODE_ENV !== 'production') {
    */
   var warnValidStyle = function(name, value, component) {
     var owner;
+    /*
     if (component) {
       owner = component._currentElement._owner;
     }
@@ -124,6 +125,7 @@ if (process.env.NODE_ENV !== 'production') {
     if (typeof value === 'number' && isNaN(value)) {
       warnStyleValueIsNaN(name, value, owner);
     }
+    */
   };
 }
 
