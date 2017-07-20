@@ -74,7 +74,7 @@ const resolveAssetSource = source => {
   if (svgDataUriPattern.test(uri)) {
     const parts = uri.split('<svg');
     const [prefix, ...svgFragment] = parts;
-    const svg = encodeURIComponent(`<svg${svgFragment}`);
+    const svg = encodeURIComponent(`<svg${svgFragment.join('<svg')}`);
     return `${prefix}${svg}`;
   }
   return uri;
