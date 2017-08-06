@@ -13,13 +13,6 @@
 import createStrictShapeTypeChecker from './createStrictShapeTypeChecker';
 import { number } from 'prop-types';
 
-export type EdgeInsetsProp = {
-  top: number,
-  left: number,
-  bottom: number,
-  right: number
-};
-
 const EdgeInsetsPropType = createStrictShapeTypeChecker({
   top: number,
   left: number,
