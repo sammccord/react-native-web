@@ -28,6 +28,7 @@ import {
   StyleSheet,
   UIManager,
   Vibration,
+  Keyboard,
 
   // components
   ActivityIndicator,
@@ -93,6 +94,7 @@ const ReactNative = {
   StyleSheet,
   UIManager,
   Vibration,
+  Keyboard,
 
   // components
   ActivityIndicator,

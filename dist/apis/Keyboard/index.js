@@ -1,0 +1,1 @@
+var _eventEmitter=require('event-emitter');var _eventEmitter2=_interopRequireDefault(_eventEmitter);function _interopRequireDefault(obj){return obj&&obj.__esModule?obj:{default:obj};}module.exports=new _eventEmitter2.default();
