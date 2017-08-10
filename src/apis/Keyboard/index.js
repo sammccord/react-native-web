@@ -1,2 +1,4 @@
 import EventEmitter from 'event-emitter'
-module.exports = new EventEmitter()
+const Keyboard = new EventEmitter()
+Keyboard.addListener = Keyboard.on
+module.exports = Keyboard

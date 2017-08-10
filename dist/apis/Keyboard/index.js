@@ -1,1 +1,1 @@
-var _eventEmitter=require('event-emitter');var _eventEmitter2=_interopRequireDefault(_eventEmitter);function _interopRequireDefault(obj){return obj&&obj.__esModule?obj:{default:obj};}module.exports=new _eventEmitter2.default();
+var _eventEmitter=require('event-emitter');var _eventEmitter2=_interopRequireDefault(_eventEmitter);function _interopRequireDefault(obj){return obj&&obj.__esModule?obj:{default:obj};}var Keyboard=new _eventEmitter2.default();Keyboard.addListener=Keyboard.on;module.exports=Keyboard;
