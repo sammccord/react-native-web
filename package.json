@@ -3,11 +3,7 @@
   "version": "0.0.113",
   "description": "React Native for Web",
   "main": "dist/index.js",
-  "files": [
-    "dist",
-    "src",
-    "!**/__tests__"
-  ],
+  "files": ["dist", "src", "!**/__tests__"],
   "scripts": {
     "benchmarks": "cd benchmarks && yarn && webpack && open index.html",
     "build": "webpack --config webpack.config.js --sort-assets-by --progress",
@@ -27,9 +23,7 @@
     "test": "flow && jest"
   },
   "babel": {
-    "presets": [
-      "react-native"
-    ],
+    "presets": ["react-native"],
     "plugins": [
       [
         "transform-react-remove-prop-types",
@@ -42,16 +36,10 @@
   "jest": {
     "testEnvironment": "jsdom",
     "timers": "fake",
-    "snapshotSerializers": [
-      "<rootDir>/node_modules/enzyme-to-json/serializer"
-    ]
+    "snapshotSerializers": ["<rootDir>/node_modules/enzyme-to-json/serializer"]
   },
   "lint-staged": {
-    "**/*.js": [
-      "fmt:cmd",
-      "git update-index --again",
-      "lint:cmd"
-    ]
+    "**/*.js": ["fmt:cmd", "git update-index --again", "lint:cmd"]
   },
   "dependencies": {
     "animated": "^0.2.0",
@@ -67,8 +55,8 @@
     "inline-style-prefixer": "^3.0.6",
     "normalize-css-color": "^1.0.2",
     "prop-types": "^15.5.10",
-    "react": "16.0.0-beta.3",
-    "react-dom": "16.0.0-beta.3",
+    "react": "^16.0.0-beta.3",
+    "react-dom": "^16.0.0-beta.3",
     "react-timer-mixin": "^0.13.3"
   },
   "devDependencies": {
@@ -97,8 +85,8 @@
     "webpack-bundle-analyzer": "^2.8.2"
   },
   "peerDependencies": {
-    "react": "16.0.0-beta.3",
-    "react-dom": "16.0.0-beta.3"
+    "react": "^16.0.0-beta.3",
+    "react-dom": "^16.0.0-beta.3"
   },
   "author": "Nicolas Gallagher",
   "license": "BSD-3-Clause",
@@ -106,13 +94,6 @@
     "type": "git",
     "url": "git://github.com/necolas/react-native-web.git"
   },
-  "tags": [
-    "react"
-  ],
-  "keywords": [
-    "react",
-    "react-component",
-    "react-native",
-    "web"
-  ]
+  "tags": ["react"],
+  "keywords": ["react", "react-component", "react-native", "web"]
 }
