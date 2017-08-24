@@ -1,1 +1,0 @@
-var _reactDom=require('react-dom');module.exports=_reactDom.findDOMNode;

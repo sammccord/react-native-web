@@ -1,23 +1,11 @@
 import {
-  // top-level API
-  // findNodeHandle,
-  // render,
-  // unmountComponentAtNode,
-
-  // modules
-  // createDOMElement,
-  NativeModules,
-  processColor,
-
   // APIs
-  Animated,
   AppRegistry,
   AppState,
   AsyncStorage,
   BackAndroid,
   Clipboard,
   Dimensions,
-  Easing,
   I18nManager,
   InteractionManager,
   Linking,
@@ -25,57 +13,13 @@ import {
   PanResponder,
   PixelRatio,
   Platform,
-  StyleSheet,
   UIManager,
   Vibration,
   Keyboard
-
-  // components
-  // ActivityIndicator,
-  // Button,
-  // FlatList,
-  // Image,
-  // ListView,
-  // Modal,
-  // Picker,
-  // ProgressBar,
-  // RefreshControl,
-  // ScrollView,
-  // SectionList,
-  // Slider,
-  // StatusBar,
-  // Switch,
-  // Text,
-  // TextInput,
-  // Touchable,
-  // TouchableHighlight,
-  // TouchableNativeFeedback,
-  // TouchableOpacity,
-  // TouchableWithoutFeedback,
-  // View,
-  // VirtualizedList,
-
-  // propTypes
-  // ColorPropType,
-  // EdgeInsetsPropType,
-  // PointPropType,
-  // TextPropTypes,
-  // ViewPropTypes
 } from './module'
 
 const ReactNative = {
-  // top-level API
-  findNodeHandle,
-  render,
-  unmountComponentAtNode,
-
-  // modules
-  // createDOMElement,
-  NativeModules,
-  processColor,
-
   // APIs
-  Animated,
   AppRegistry,
   AppState,
   AsyncStorage,
@@ -83,7 +27,6 @@ const ReactNative = {
   BackHandler: BackAndroid,
   Clipboard,
   Dimensions,
-  Easing,
   I18nManager,
   InteractionManager,
   Linking,
@@ -91,42 +34,9 @@ const ReactNative = {
   PanResponder,
   PixelRatio,
   Platform,
-  StyleSheet,
   UIManager,
   Vibration,
-  Keyboard,
-
-  // components
-  // ActivityIndicator,
-  // Button,
-  // FlatList,
-  // Image,
-  // ListView,
-  // Modal,
-  // Picker,
-  // ProgressBar,
-  // RefreshControl,
-  // ScrollView,
-  // SectionList,
-  // Slider,
-  // StatusBar,
-  // Switch,
-  // Text,
-  // TextInput,
-  // Touchable,
-  // TouchableHighlight,
-  // TouchableNativeFeedback,
-  // TouchableOpacity,
-  // TouchableWithoutFeedback,
-  // View,
-  // VirtualizedList,
-
-  // propTypes
-  ColorPropType,
-  EdgeInsetsPropType,
-  PointPropType,
-  TextPropTypes,
-  ViewPropTypes
+  Keyboard
 }
 
 module.exports = ReactNative
