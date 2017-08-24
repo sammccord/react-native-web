@@ -1,11 +1,11 @@
 import {
   // top-level API
-  findNodeHandle,
-  render,
-  unmountComponentAtNode,
+  // findNodeHandle,
+  // render,
+  // unmountComponentAtNode,
 
   // modules
-  createDOMElement,
+  // createDOMElement,
   NativeModules,
   processColor,
 
@@ -28,40 +28,40 @@ import {
   StyleSheet,
   UIManager,
   Vibration,
-  Keyboard,
+  Keyboard
 
   // components
-  ActivityIndicator,
-  Button,
-  FlatList,
-  Image,
-  ListView,
-  Modal,
-  Picker,
-  ProgressBar,
-  RefreshControl,
-  ScrollView,
-  SectionList,
-  Slider,
-  StatusBar,
-  Switch,
-  Text,
-  TextInput,
-  Touchable,
-  TouchableHighlight,
-  TouchableNativeFeedback,
-  TouchableOpacity,
-  TouchableWithoutFeedback,
-  View,
-  VirtualizedList,
+  // ActivityIndicator,
+  // Button,
+  // FlatList,
+  // Image,
+  // ListView,
+  // Modal,
+  // Picker,
+  // ProgressBar,
+  // RefreshControl,
+  // ScrollView,
+  // SectionList,
+  // Slider,
+  // StatusBar,
+  // Switch,
+  // Text,
+  // TextInput,
+  // Touchable,
+  // TouchableHighlight,
+  // TouchableNativeFeedback,
+  // TouchableOpacity,
+  // TouchableWithoutFeedback,
+  // View,
+  // VirtualizedList,
 
   // propTypes
-  ColorPropType,
-  EdgeInsetsPropType,
-  PointPropType,
-  TextPropTypes,
-  ViewPropTypes
-} from './module';
+  // ColorPropType,
+  // EdgeInsetsPropType,
+  // PointPropType,
+  // TextPropTypes,
+  // ViewPropTypes
+} from './module'
 
 const ReactNative = {
   // top-level API
@@ -70,7 +70,7 @@ const ReactNative = {
   unmountComponentAtNode,
 
   // modules
-  createDOMElement,
+  // createDOMElement,
   NativeModules,
   processColor,
 
@@ -97,29 +97,29 @@ const ReactNative = {
   Keyboard,
 
   // components
-  ActivityIndicator,
-  Button,
-  FlatList,
-  Image,
-  ListView,
-  Modal,
-  Picker,
-  ProgressBar,
-  RefreshControl,
-  ScrollView,
-  SectionList,
-  Slider,
-  StatusBar,
-  Switch,
-  Text,
-  TextInput,
-  Touchable,
-  TouchableHighlight,
-  TouchableNativeFeedback,
-  TouchableOpacity,
-  TouchableWithoutFeedback,
-  View,
-  VirtualizedList,
+  // ActivityIndicator,
+  // Button,
+  // FlatList,
+  // Image,
+  // ListView,
+  // Modal,
+  // Picker,
+  // ProgressBar,
+  // RefreshControl,
+  // ScrollView,
+  // SectionList,
+  // Slider,
+  // StatusBar,
+  // Switch,
+  // Text,
+  // TextInput,
+  // Touchable,
+  // TouchableHighlight,
+  // TouchableNativeFeedback,
+  // TouchableOpacity,
+  // TouchableWithoutFeedback,
+  // View,
+  // VirtualizedList,
 
   // propTypes
   ColorPropType,
@@ -127,6 +127,6 @@ const ReactNative = {
   PointPropType,
   TextPropTypes,
   ViewPropTypes
-};
+}
 
-module.exports = ReactNative;
+module.exports = ReactNative
